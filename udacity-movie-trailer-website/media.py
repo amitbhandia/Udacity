@@ -3,19 +3,15 @@ import webbrowser
 
 class Movie:
     """Movie are documented in the same way as classes, and represents a movie.
-
     The __init__ method may be documented in either the class level
     docstring, or as a docstring on the __init__ method itself.
-
     Note:
         Do not include the `self` parameter in the ``Args`` section.
-
     Args:
         movie_title (str): Movie Title.
         movie_storyline (str): Movie description or movie plot.
         poster_image (str): Poster image url.
         trailer_youtube (str): Youtube video trailer url.
-
     Attributes:
         title (str): Movie Title.
         storyline (str): Movie description or movie plot.
